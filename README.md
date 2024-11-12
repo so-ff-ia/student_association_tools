@@ -1,5 +1,5 @@
 # student_association_tools
-Some code I used as the president of the student association NextGen BioTech, University of Bologna. 
+Some code I used as the president of the student association NextGen BioTech(University of Bologna). 
 
 You can find scripts for: 
 

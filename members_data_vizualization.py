@@ -1,6 +1,6 @@
 import pandas as pd
 
-path = input("path ")
+path = input("path: ")
 df = pd.read_csv(path)
 
 print(df.to_string())
@@ -24,7 +24,3 @@ print(year_count)
 
 
 
-# pie with the degree - data obtained need to transform in charts
-# pie with the years overall  - data obtained need to transform in charts
-# pie with the years per degree - to be done
-# amount of people signed for the document - data obtained need to transform in charts

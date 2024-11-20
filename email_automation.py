@@ -5,13 +5,12 @@ import smtplib
 import pandas as pd
 
 
-# path = input("path: ")
-# df = pd.read_csv(path)
+path = input("path: ")
+df = pd.read_csv(path)
 
 email_sender = 'nextgenbiotech.fabit@gmail.com'
 email_password = input('password: ')
-# email_receivers = list(df.Email)
-email_receivers = ['carolinna.cretu@gmail.com']
+email_receivers = list(df.Email)
 
 
 subject = 'TEST newsletter - association'

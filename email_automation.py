@@ -12,8 +12,7 @@ email_sender = 'nextgenbiotech.fabit@gmail.com'
 email_password = input('password: ')
 email_receivers = list(df.Email)
 
-
-subject = 'TEST newsletter - association'
+subject = 'TEST'
 
 
 def send_email(receivers):

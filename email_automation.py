@@ -4,14 +4,17 @@ import ssl
 import smtplib
 import pandas as pd
 
-path = input("path: ")
-df = pd.read_csv(path)
+
+# path = input("path: ")
+# df = pd.read_csv(path)
 
 email_sender = 'nextgenbiotech.fabit@gmail.com'
 email_password = input('password: ')
-email_receivers = list(df.Email)
+# email_receivers = list(df.Email)
+email_receivers = ['carolinna.cretu@gmail.com']
 
-subject = 'Trying automated emails'
+
+subject = 'TEST newsletter - association'
 
 
 def send_email(receivers):
@@ -20,18 +23,7 @@ def send_email(receivers):
         my_email['From'] = email_sender
         my_email['To'] = person
         my_email['Subject'] = subject
-        html = """
-        <html>
-            <body>
-                <center>
-                    <h1>title</h1>
-                        <p> This is the first paragraph.</p>
-                        <p> This is the second paragraph.</p>
-                </center>
-
-            </body>
-        </html>
-        """
+        html = """email body"""
         my_email.attach(MIMEText(html, "html"))
 
         context = ssl.create_default_context()

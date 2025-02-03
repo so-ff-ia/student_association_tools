@@ -14,17 +14,18 @@ email_sender = 'nextgenbiotech.fabit@gmail.com'
 # email_receivers = [""]
 email_receivers = list(df.Email)
 
-subject = 'NextGen BioTech Newsletter - November'
+subject = 'NextGen BioTech Newsletter - January'
 
 images = [
     {"path": "Header Newsletter.png", "cid": "header"},
-    {"path": "Updated logo+name+slogan.png", "cid": "outro"},
+    {"path": "chd_logo.jpg", "cid": "chd"},
     {"path": "Recap.png", "cid": "recap"},
     {"path": "Announce.png", "cid": "announcements"},
     {"path": "Rec.png", "cid": "recommendations"},
-    {"path": "News.png", "cid": "news"},
-    {"path": "book.jpg", "cid": "book"},
-    {"path": "Founding team.jpg", "cid": "team"}
+    {"path": "book.png", "cid": "book1"},
+    {"path": "Research.png", "cid": "research"},
+    {"path": "cancer.png", "cid": "cancer"},
+    {"path": "Updated logo+name+slogan.png", "cid": "logo"}
 
 ]
 

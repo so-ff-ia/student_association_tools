@@ -15,10 +15,16 @@ path = input("path: ")
 df = pd.read_csv(path)
 email_receivers = list(df.Email)
 
-subject = 'Seminar - 4th March - Engineered Bacteriophages for Medical Applications'
+subject = 'NextGen BioTech Newsletter - February'
 
 images = [
-    {"path": "poster.jpeg", "cid": "poster"},
+    {"path": "Header Newsletter.png", "cid": "header"},
+    {"path": "Announce.png", "cid": "announcements"},
+    {"path": "seminar.png", "cid": "seminar"},
+    {"path": "Rec.png", "cid": "recommendations"},
+    {"path": "joy.jpg", "cid": "joy"},
+    {"path": "Research.png", "cid": "research"},
+    {"path": "drug.png", "cid": "drug"},
     {"path": "Updated logo+name+slogan.png", "cid": "logo"}
 ]
 

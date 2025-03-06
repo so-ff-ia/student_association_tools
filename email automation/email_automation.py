@@ -9,11 +9,11 @@ import pandas as pd
 email_sender = 'nextgenbiotech.fabit@gmail.com'
 email_password = input('password: ')
 
-# email_receivers = [""]
+email_receivers = ["sofia.pasquale@icloud.com", "sofia.np1104@gmail.com", "sofia.pasquale2@studio.unibo.it"]
 
-path = input("path: ")
-df = pd.read_csv(path)
-email_receivers = list(df.Email)
+#path = input("path: ")
+#df = pd.read_csv(path)
+#email_receivers = list(df.Email)
 
 subject = 'NextGen BioTech Newsletter - February'
 

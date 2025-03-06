@@ -19,8 +19,9 @@ subject = 'NextGen BioTech Newsletter - February'
 
 images = [
     {"path": "Header Newsletter.png", "cid": "header"},
-    {"path": "Announce.png", "cid": "announcements"},
+    {"path": "Recap.png", "cid": "recap"},
     {"path": "seminar.png", "cid": "seminar"},
+    {"path": "Announce.png", "cid": "announcements"},
     {"path": "Rec.png", "cid": "recommendations"},
     {"path": "joy.jpg", "cid": "joy"},
     {"path": "Research.png", "cid": "research"},

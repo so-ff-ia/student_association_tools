@@ -18,7 +18,7 @@ email_receivers = ["sofia.pasquale@icloud.com", "sofia.np1104@gmail.com", "sofia
 subject = 'NextGen BioTech Newsletter - February'
 
 images = [
-    {"path": "Header\ Newsletter.png", "cid": "header"},
+    {"path": "HeaderNewsletter.png", "cid": "header"},
     {"path": "Recap.png", "cid": "recap"},
     {"path": "seminar.jpg", "cid": "seminar"},
     {"path": "Announce.png", "cid": "announcements"},
@@ -26,7 +26,7 @@ images = [
     {"path": "joy.jpg", "cid": "joy"},
     {"path": "Research.png", "cid": "research"},
     {"path": "drug.jpg", "cid": "drug"},
-    {"path": "Updated\ logo+name+slogan.png", "cid": "logo"}
+    {"path": "Updatedlogo+name+slogan.png", "cid": "logo"}
 ]
 
 
